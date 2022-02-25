@@ -1,6 +1,6 @@
 const express = require('express');
-const router = express.Router();/
-const chemRouter = require('../controllers/personnage.controller');
+const router = express.Router();
+const chemRouter = require('../controller/personnage.controller');
 router.get('/', chemRouter);
 const personnages = require('./personnages.json');
 

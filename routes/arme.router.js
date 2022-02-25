@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();/
-const chemRouter = require('../controllers/arme.controller');
+const chemRouter = require('../controller/arme.controller');
 router.get('/', chemRouter);
 
 app.get('/armes', (req,res) => {
