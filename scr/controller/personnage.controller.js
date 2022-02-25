@@ -6,3 +6,7 @@ class Personnage {
         this.sexe = sexe;
     }
 }
+
+
+const person1 = new Personnage();
+
