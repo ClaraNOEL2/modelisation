@@ -1,7 +1,12 @@
 const express = require('express');
 const router = express.Router();
+<<<<<<< HEAD
 const chemRouter = require('../controller/stat.controller');
 router.get('/', chemRouter);
+=======
+const chemRouter = require('../src/controller/stat.controller');
+
+>>>>>>> 6404f240867f377924211e017ca3c2caa2988b80
 app.get('/stats', (req,res) => {
     res.status(200).json(stats)
 })
