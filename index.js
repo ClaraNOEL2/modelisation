@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const chatRoutes = require("./routes/personnage.router");
-app.use("/personnage", chatRoutes);
+app.use("/personnages", chatRoutes);
 
 app.get('/', function (req, res) {
     res.send('Bienvenue sur Gamez tapez personnages sur url');
