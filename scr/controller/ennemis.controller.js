@@ -6,3 +6,5 @@ class Ennemis {
         this.epee = epee;
     }
 }
+
+const ennemis1 = new Ennemis();

@@ -4,3 +4,5 @@ class Arme {
         this.categorie = categorie;
     }
 }
+
+const arme1 = new Arme();

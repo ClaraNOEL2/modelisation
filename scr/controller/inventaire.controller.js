@@ -4,3 +4,5 @@ class Inventaire {
         this.medicament = medicament;
     }
 }
+
+const inventaire1 = new Inventaire();

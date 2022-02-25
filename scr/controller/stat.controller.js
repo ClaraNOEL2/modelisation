@@ -5,3 +5,5 @@ class Stat {
         this.vie = vie;
     }
 }
+
+const stat1 = new Stat();
