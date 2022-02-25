@@ -1,4 +1,3 @@
-
 class Personnage {
     constructor(id, nom, sexe) {
         this.id = id;
@@ -6,7 +5,5 @@ class Personnage {
         this.sexe = sexe;
     }
 }
-
-
 const person1 = new Personnage();
 

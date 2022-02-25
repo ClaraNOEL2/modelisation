@@ -1,8 +1,9 @@
 const express = require('express');
-const router = express.Router();/
-const chemRouter = require('../controllers/personnage.controller');
-router.get('/', chemRouter);
-const personnages = require('./personnages.json');
+const router = express.Router();
+const chemRouter = require('../src/controller/personnage.controller');
+
+const personnages = require('../personnages.json');
+const app = express();
 
 app.get('/personnages', (req,res) => {
     res.status(200).json(personnages)

@@ -1,7 +1,7 @@
 const express = require('express');
-const router = express.Router();/
-const chemRouter = require('../controllers/stat.controller');
-router.get('/', chemRouter);
+const router = express.Router();
+const chemRouter = require('../src/controller/stat.controller');
+
 app.get('/stats', (req,res) => {
     res.status(200).json(stats)
 })
